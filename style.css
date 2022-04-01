@@ -73,16 +73,20 @@ img {
 }
 
 
-@media screen and (max-width: 421px){
+@media screen and (max-width: 420px){
   img{
-    height: 150px;
+    height: 50%;
+    width: 50%;
+  }
+  #why img{
+    height: 30%;
+    width: 30%;
   }
 
   .row{
-    width:100vw;
-    overflow: hidden;
+    width:100%;
   }
-  
+
   #lezioni .row>.left,
   #lezioni .row>.right{
   width: 100%;
