@@ -108,3 +108,36 @@ img {
   }
   
 }
+
+@media screen and (max-width: 800px){
+  
+  #why img{
+    height: 30%;
+    width: 30%;
+  }
+
+  .row{
+    width:100%;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+  width: 50%;
+  margin-top: 30px;
+  
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  width: 100%;
+  margin-top: 30px;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  width: 100%;
+  margin-top: 80px;
+  }
+  
+}
