@@ -82,10 +82,9 @@ img {
     object-position: center;
   }
 
-
   #why img{
-    height: 30%;
-    width: 30%;
+    height: 15%;
+    width: 15%;
   }
 
   .row{
@@ -110,8 +109,8 @@ img {
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-    width: calc(100% / 3);
-    margin-top: 80px;
+    width:100%;
+    margin-top: 30px;
   }
   
 }
@@ -120,13 +119,13 @@ img {
 /* MEDIA QUERY SMALL */
 @media screen and (max-width: 420px){
 
-  #lezioni img, #steps img, #why img{
+  #lezioni img, #steps img{
     width: 100%;
     object-fit: contain;
     object-position: center;
   }
    #why img{
-    width: 50%;
+    width: 30%;
     object-fit: contain;
     object-position: center;
   }
@@ -152,7 +151,7 @@ img {
   #why .row>.second,
   #why .row>.third {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 30px;
   }
   
 }
